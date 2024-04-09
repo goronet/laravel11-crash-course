@@ -14,4 +14,4 @@ Route::get('welcome', [WelcomeController::class, 'welcome'])->name('welcome');
 //Route::put('/note/{id}', [NoteController::class, 'update'])->name('notes.update');
 //Route::delete('/note/{id}', [NoteController::class, 'destroy'])->name('notes.destroy');
 
-Route::resource('note   ', NoteController::class);
+Route::resource('note', NoteController::class);
